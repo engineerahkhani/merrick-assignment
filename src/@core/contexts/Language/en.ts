@@ -14,8 +14,15 @@ export default {
   save_changes: 'Save changes',
   general: 'General',
   cancel: 'Cancel',
+  frequency: 'Frequency',
+  daily: 'Daily',
+  weekly: 'Weekly',
   tak_offline: 'Take Offline',
   block_users: 'Block Users',
+  plz_p_email: 'Please provide an email address',
+  p_e_v_email: 'Please enter a valid email address',
+  loading_3dot:'loading...',
+  er_has_occ:'An error has occurred',
   user_not_found_sub:
     'We did not find any user by this username, please try with different one',
 };

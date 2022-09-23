@@ -6,6 +6,9 @@ const theme = createTheme({
     background: {
       paper: '#ffffff',
     },
+    error: {
+      main: '#e36049',
+    },
     text: {
       primary: '#173A5E',
       secondary: '#46505A',

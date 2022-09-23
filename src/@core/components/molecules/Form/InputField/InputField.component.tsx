@@ -1,7 +1,8 @@
-import React, { ChangeEventHandler } from 'react';
+import React from 'react';
 import { Field, FieldProps } from 'formik';
 import Input from '../../../atoms/Input';
 import { InputProps } from '../../../atoms/Input/Input.component';
+import Typography from '../../../atoms/Typography';
 
 interface InputFieldProps extends Partial<InputProps> {
   name: string;
@@ -25,7 +26,9 @@ const InputField: React.FC<InputFieldProps> = ({ onChange, name, label }) => {
               error={!!meta.error}
             />
             {meta.touched && meta.error && (
-              <div className="error">{meta.error}</div>
+              <Typography color="error" sx={{ fontSize: 12 }}>
+                {meta.error}
+              </Typography>
             )}
           </div>
         );
